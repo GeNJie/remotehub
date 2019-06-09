@@ -1,8 +1,9 @@
 /* Jumbotron */
 .jumbotron {
   height: 600px;
-  background-image: url(../assets/img/businessman-collaborate-collaboration-872957.jpg);
+  background-image: url(../assets/img/login-bg.jpg);
   background-size: cover;
+  background-position-x: -140px;
 }
 .jumbo-register {
   height: auto;
@@ -26,8 +27,8 @@
   margin: 15px 0;
 }
 .form-body {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
   padding: 20px;
   border-radius: 12px;
 }
@@ -46,7 +47,11 @@
   background-color: blue;
 }
 .text-muted {
-  color: white !important;
+  color: black !important;
+}
+.btn-login {
+  color: darkblue;
+  font-weight: 900;
 }
 
 /* Desktop */
@@ -54,5 +59,12 @@
   .form-body {
     width: 50% !important;
     margin: auto;
+  }
+  .jumbotron {
+    height: 600px;
+    background-image: url(../assets/img/login-bg.jpg);
+    background-size: cover;
+    background-position-y: -50px;
+    background-position-x: unset;
   }
 }

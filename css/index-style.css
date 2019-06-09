@@ -2,6 +2,9 @@
   font-size: 25px;
   font-family: 'Baloo Da', cursive;  
 }
+.landing {
+  margin-top: 58px;
+}
 .img-landing {
   width: 130%;
   position: relative;
@@ -33,16 +36,61 @@
   font-weight: 100;
   font-family: 'Baloo Da', cursive;
 }
+.service-page {
+  margin-top: 20px;
+  background-image: url('../assets/img/service-bg.jpg');
+  background-size: cover;
+  background-position-y: -50px;
+  height: 500px;
+  color: white;
+}
 .service-page h4 {
   font-size: 22px;
   font-weight: 900;
-  margin-top: 20px;
+  margin-top: 27px;
+  text-align: center;
+}
+.textbox-1 {
+  margin-top: 70px;
+  font-weight: bold;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
 }
 .post-update h4 {
   font-size: 22px;
   text-align: center;
   font-weight: 900;
   margin: 20px 0;
+}
+.gallery-update h4 {
+  text-align: center;
+  font-weight: 900;
+  margin-top: 30px;
+}
+.gallery-img {
+  width: 160px;
+  margin: 10px 10px;
+}
+.contact-us {
+  background-image: url(../assets/img/contact-bg.jpg);
+  background-size: cover;
+}
+.contact-body {
+  margin-top: 30px;
+  color: white;
+}
+.contact-body h4 {
+  padding-top: 20px !important;
+  text-align: center;
+  font-weight: 900;
+}
+.card-contact-mail {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+.card-contact-address {
+  color: black;
+  width: 400px;
+  margin-bottom: 20px;
 }
 
 /* Utility */
@@ -58,6 +106,17 @@
   background-color: blue;
   color: white;
 }
+.btn-about {
+  background-color: white;
+  border: solid black 2px;
+  border-radius: 50px;
+  font-weight: 900;
+}
+.btn-about:hover {
+  background-color: blue;
+  color: white;
+  border: blue;
+}
 .card-post {
   width: 21rem;
   height: 29rem;
@@ -69,6 +128,10 @@
   width: 150px;
   margin: auto;
   margin-bottom: 7px;
+}
+.btn-login {
+  color: darkblue;
+  font-weight: 900;
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -102,4 +165,23 @@
     font-weight: 100;
     font-family: 'Baloo Da', cursive;
   } 
+  .gallery-img {
+    width: 260px;
+    filter: grayscale(1);
+  }
+  .gallery-img:hover {
+    filter: unset;
+  }
+  .contact-us {
+    background-position-y: -100px;
+  }
+  .card-contact-mail {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 550px;
+    margin-left: 40px;
+  }
+  .card-contact-address {
+    color: black;
+    width: 500px;
+  }
 }
