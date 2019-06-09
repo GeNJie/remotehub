@@ -86,8 +86,6 @@
 }
 .card-contact-mail {
   background-color: rgba(0, 0, 0, 0.1);
-  width: 150%;
-  margin-left: -25%;
 }
 .card-contact-address {
   color: black;
@@ -179,10 +177,8 @@
   .card-contact-mail {
     background-color: rgba(0, 0, 0, 0.1);
     margin-left: 40px;
-    width: 500px;
   }
   .card-contact-address {
     color: black;
-    width: 500px;
   }
 }
