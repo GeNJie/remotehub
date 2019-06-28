@@ -97,6 +97,33 @@
   font-weight: 900;
   margin-top: 20px;
 }
+.footer-link {
+  color: white !important;
+  margin: auto;
+}
+.overlay-nav {
+  width: 320px;
+  height: 40px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  text-decoration: unset;
+  font-weight: bold;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.overlay-nav:hover {
+  background-color: blue !important;
+}
+.group-invite-btn {
+  color: white;
+}
+.group-invite-btn:hover {
+  text-decoration: none;
+  color: white !important;
+}
+.footer {
+  padding-bottom: 50px;
+}
 
 /* Utility */
 .btn-call {

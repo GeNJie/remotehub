@@ -19,6 +19,38 @@
 
 <body>
 
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">RemoteHub</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Events</a>
+          <a class="nav-item nav-link" href="service.html">Service</a>
+          <a class="nav-link" href="#" id="DropdownMenuUser" role="button" data-toggle="dropdown">
+            <img src="assets/img/alexander-kay-1329337-unsplash.jpg" class="user-img fload-left">
+          </a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="DropdownMenuUser" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Alexander Key
+            </a>
+            <div class="dropdown-menu" aria-labelledby="DropdownMenuUser">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </div>
+      </div>
+    </div>
+  </nav>
+
   <div class="bodycontain">
 
     <!-- Profile card -->
@@ -31,7 +63,8 @@
               <h3 class="user-name">Alexander Kay</h3>
               <h4 class="job">Freelance Photographer</h4>
               <h6 class="location">Greater jakarta, Indonesia</h6>
-              <a href="#" class="btn btn-add">Add working experience</a>
+              <button class="btn btn-add" type="button" data-toggle="modal" data-target="#JobModal">Find or over a
+                job</button>
               <a href="#" class="btn btn-edit">Edit profile</a>
             </div>
             <div class="col-sm-12-md-6 card-info card-info-r">
@@ -81,6 +114,61 @@
     </div>
     <!-- End profile -->
 
+    <div class="container">
+      <div class="card post">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="dashboard">
+              <h4>Dashboard</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="JobModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Job title</label>
+              <input type="text" class="form-control" id="job-title"
+                placeholder="web design, logo design, profilling, etc">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Example select</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect2">Example multiple select</label>
+              <select multiple class="form-control" id="exampleFormControlSelect2">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- Optional JavaScript -->
