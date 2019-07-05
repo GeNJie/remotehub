@@ -44,7 +44,7 @@
 	border-radius: 360px;
 }
 .speaker-name {
-	margin-left: -150px;
+	margin-left: -45%;
 	margin-top: 10px;
 }
 .speaker-name h4 {
@@ -108,7 +108,8 @@
 }
 .ask-modal,
 .join-modal {
-	margin-top: 50%;
+	margin-top: 45%;
+}
 }
 
 /*// Large devices (desktops, 992px and up)*/
