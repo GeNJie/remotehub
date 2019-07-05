@@ -44,7 +44,7 @@
 	border-radius: 360px;
 }
 .speaker-name {
-	margin-left: -45%;
+	margin-left: -37%;
 	margin-top: 10px;
 }
 .speaker-name h4 {
@@ -85,7 +85,7 @@
 .btn-rawes-container {
 	text-align: center;
 	justify-content: center;
-	margin-left: 13%;
+	margin-left: 7%;
 }
 .rawesdesc {
 	font-size: 12px;
@@ -110,6 +110,12 @@
 .join-modal {
 	margin-top: 45%;
 }
+.speaker-name h2 {
+	color: orange;
+}
+.speaker-name h2 span {
+	font-size: 10px;
+	color: black;
 }
 
 /*// Large devices (desktops, 992px and up)*/
