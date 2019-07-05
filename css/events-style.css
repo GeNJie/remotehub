@@ -53,14 +53,16 @@
 }
 .speaker-name h3 {
 	font-size: 13px;
+	margin-top: -10px;
 }
 .speaker-name h2 {
+	margin-top: -5px;
 	font-size: 17px;
 	font-weight: bold;
 }
 .speaker-name h2 span {
 	font-size: 15px;
-	margin-left: 5px;
+	margin-left: 3% !important;
 }
 .overlay-nav:hover {
   background-color: blue !important;
