@@ -8,7 +8,7 @@
 .img-landing {
   width: 130%;
   position: relative;
-  margin-top: 50px;
+  margin-top: 10px;
   z-index: -1;
   margin-left: -70px;
   overflow: hidden;
@@ -16,16 +16,16 @@
 .landing-logo {
   position: absolute;
   z-index: 1;
-  margin-top: 40px;
+  margin-top: 130px;
   text-align: center;
 }
 .landing-logo h4 {
-  font-size: 55px;
+  font-size: 40px;
   font-weight: 400;
   font-family: 'Baloo Da', cursive;
 }
 .landing-logo h5 {
-  margin-top: 50px;
+  margin-top: 17px;
   margin-bottom: 50px;
   font-weight: 800;
   color: orange;
